@@ -1,0 +1,428 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8E8E8E;
+}
+
+h3 {
+    font-weight: 500;
+    color: #8E8E8E;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+h5 {
+    color: #8E8E8E;
+}
+
+h6 {
+    font-weight: 500;
+    color: #139EF2;
+}
+
+
+.container {
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+ion-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.topo-completo {
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DBDBDB;
+    z-index: 1;
+}
+
+.topo {
+    height: inherit;
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 22px;
+}
+
+.barra-vertical {
+    height: 23px;
+    border-left: 1px solid #DBDBDB;
+    margin: 0 10px;
+}
+
+.ocultar-desktop {
+    display: none;
+}
+
+.imagem-instagram {
+    position: relative;
+    top: 3px;
+}
+
+.caixa-logos {
+    display: flex;
+}
+
+.caixa-pesquisa {
+    width: 215px;
+    text-align: center;
+    height: 23px;
+    font-size: 12px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.icone {
+    margin: 7px;
+}
+
+.principal {
+    width: 614px;
+}
+
+.lateral {
+    position: fixed;
+    left: calc(((100vw - 935px)/2) + 642px); /* Tamanho da viewport menos o conteudo da página, sobra o espaço vazio, esse é divido por 2 e somado a largura do feed + 28px que precisa ter entre a barra lateral */
+    width: 293px;
+}
+
+.stories {
+    height: 118px;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-story {
+    margin-right: 14px;
+    width: 66px;
+    height: 66px;
+    background-image: url('images/stories_background.jpg');
+    background-size: 66px;
+}
+
+.item-story p {
+    margin-top: 7px;
+    width: 66px;
+    text-align: center;
+    color: #262626;
+}
+
+.stories .item-story:first-child {
+    margin-left: 18px;
+}
+
+.item-story img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.seta-stories {
+    position: absolute;
+    color: #FFFFFF;
+    right: 10px;
+    font-size: 30px;
+}
+
+.post {
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.borda-padrao {
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.perfil {
+    margin: 23px 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.image-perfil {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
+}
+
+.info-perfil {
+    line-height: 16px;
+}
+
+.topo-quem-seguir {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.info-sugestao-perfil {
+    display: flex;
+    align-items: center;
+}
+
+.info-sugestao-perfil img {
+    margin-right: 11px;
+}
+
+.texto-sugestao-perfil h1{
+    margin-bottom: 6px;
+}
+
+.caixa-sugestao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.texto-info-instagram {
+    color: #C7C7C7;
+    font-size: 11px;
+}
+
+.topo-post {
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.topo-post ion-icon {
+    height: 16px;
+    margin-right: 17px;
+}
+
+.autor-post {
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.autor-post img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.conteudo-post {
+    height: 612px;
+    width: 612px;
+}
+
+.rodape-post {
+    height: auto;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.icones-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-principais ion-icon {
+    margin-right: 15px;
+}
+
+.info-curtidas-post {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.info-curtidas-post img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.info-curtidas-post p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.titulo-post {
+    margin: 10px 0;
+}
+
+.secao-comentarios p {
+    
+}
+
+
+
+.comentario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.comentario ion-icon {
+    font-size: 15px;
+}
+
+.linha-horizontal {
+    border-top: 1px solid #f1efef;
+    margin: 15px 0;
+}
+
+.input-comentario {
+    font-size: 14px;
+    outline: none;
+    border: 0;
+}
+
+.adicione-comentario {
+    display: flex;
+    align-items: center;
+}
+
+.seu-comentario h6 {
+    color: #B2DFFC;
+    transition: color 0.3s;
+
+}
+
+.seu-comentario h6:hover {
+    color: #0095F6;
+}
+
+
+.adicione-comentario ion-icon {
+    margin-right: 15px;
+}
+
+.seu-comentario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 935px)
+{
+    .topo {
+        width: auto;
+    }
+
+    .lateral {
+        display: none;
+    }
+
+    .principal {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 614px)
+{
+    .ocultar {
+        display: none;
+    }
+
+    .ocultar-desktop {
+        display: block;
+    }
+
+    .caixa-logos .imagem-instagram {
+        display: none;
+    }
+
+    .topo {
+        justify-content: space-between;
+    }
+
+    .borda-padrao {
+        border: 1px solid #DBDBDB;
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
+    }
+
+    .stories {
+        margin-bottom: 0px;
+        background-color: #fafafa;
+        border: none;
+    }
+
+    .container {
+        top: 54px;
+        overflow: hidden;
+    }
+
+    .barra-inferior-mobile {
+        height: 54px;
+        width: 100%;
+        border-top: 1px solid #DBDBDB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        background-color: #FFFFFF;
+        bottom: 0;
+    }
+    .barra-inferior-mobile ion-icon {
+        padding: 16px 19px;
+    }
+
+    .feed, .post, .conteudo-post img, video{
+        width: 100vw;
+    }
+
+    .conteudo-post, .post, video {
+        height: auto;
+    }
+
+    .info-curtidas-post p{
+        font-size: 12px
+    }
+}
