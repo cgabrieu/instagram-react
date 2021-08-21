@@ -1,9 +1,11 @@
-import Header from './components/Header';
+import Container from './containers/Container';
+import Top from './containers/Top';
 
 export default function App() {
     return (
-        <div>
-		    <Header />
-		</div>
+        <>
+		    <Top/>
+            <Container/>
+		</>
     );
 }
