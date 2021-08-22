@@ -1,7 +1,18 @@
 export default function Stories() {
+    const storiesList = [
+        {name: "9gag", image: "9gag.png"},
+        {name: "meowed", image: "meowed.png"},
+        {name: "barked", image: "barked.png"},
+        {name: "nathanwpyle", image: "nathanwpylestrangeplanet.png"},
+        {name: "wawawiwac", image: "wawawiwacomicsa.png"},
+        {name: "respondeai", image: "respondeai.png"},
+        {name: "filomoderna", image: "filomoderna.png"},
+        {name: "memeriago", image: "memeriagourmet.png"},
+    ]
+
     return (
         <ul class="stories borda-padrao">
-            <StoryItem image="9gag.png" name="9gag"/>
+            {storiesList.map(item => StoryItem(item))}
             <ForwardStories/>
         </ul>
     );

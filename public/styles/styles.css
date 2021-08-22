@@ -132,7 +132,7 @@ ion-icon {
     margin-right: 14px;
     width: 66px;
     height: 66px;
-    background-image: url('images/stories_background.jpg');
+    background-image: url('../assets/images/stories_background.jpg');
     background-size: 66px;
 }
 

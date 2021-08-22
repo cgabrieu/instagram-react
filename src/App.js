@@ -4,8 +4,8 @@ import Top from './containers/Top';
 export default function App() {
     return (
         <>
-		    <Top/>
-            <Container/>
-		</>
+            <Top />
+            <Container />
+        </>
     );
 }
