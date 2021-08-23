@@ -9,7 +9,6 @@ export default function Stories() {
         {name: "filomoderna", image: "filomoderna.png"},
         {name: "memeriago", image: "memeriagourmet.png"},
     ]
-
     return (
         <ul class="stories borda-padrao">
             {storiesList.map(item => StoryItem(item))}
