@@ -219,8 +219,13 @@ ion-icon {
 }
 
 .texto-info-instagram {
+    margin-top: 33px;
     color: #C7C7C7;
     font-size: 11px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .topo-post {
